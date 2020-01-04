@@ -3,55 +3,38 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["cat", "dog", "bird", "tiger"]
+  ["", "", "", ""]
 end
 
-def add_element_to_end_of_array(array, element)=
- ["cat", "dog", "bird", "tiger"]
- add_element_to_end_of_array.push("lion")
- p add_element_to_end_of_array
+def add_element_to_end_of_array(array, element)
+array.push (element)
 end
 
-def add_element_to_start_of_array(array, element)=
-  ["cat", "dog", "bird", "tiger"]
-  add_element_to_start_of_array.unshift("lion")
-  p add_element_to_start_of_array
+def add_element_to_start_of_array(array, element)
+array.unshift (element)
 end
 
-def remove_element_from_end_of_array(array) = 
-["cat", "dog", "bird", "tiger"]
-tiger_el = remove_element_from_end_of_array.pop
-p remove_element_from_end_of_array
+def remove_element_from_end_of_array(array)
+array.pop
 end
 
-def remove_element_from_start_of_array(array) = 
-["cat", "dog", "bird", "tiger"]
-cat_el = remove_element_from_start_of_array.shift
-p remove_element_from_start_of_array
+
+def remove_element_from_start_of_array(array)
+array.shift
 end
 
-def retrieve_element_from_index(array, index_number) =
-  ["cat", "dog", "bird", "tiger"]
-  retrieve_element_from_index[]
+def retrieve_element_from_index(array, index)
+array[index]
+end
+
+def retrieve_first_element_from_array(array)
+array[0]
+end
   
-end
-
-def retrieve_first_element_from_array(array)=
-    ["cat", "dog", "bird", "tiger"]
-  retrieve_first_element_from_array[0]
-  
-end
-
 def retrieve_last_element_from_array(array)
-     ["cat", "dog", "bird", "tiger"]
-  retrieve_last_element_from_array[-1]
-  
+array[-1]
 end
 
-def update_element_from_index(array, index_number, element)=
-  ["cat", "dog", "bird", "tiger"]
-  update_element_from_index[1] = "monkey"
-  =>"monkey"
-  p update_element_from_index
-
+def update_element_from_index(array, index, element)
+array[index]=element
 end
