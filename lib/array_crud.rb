@@ -14,11 +14,10 @@ def add_element_to_start_of_array(array, element)
 array.unshift (element)
 end
 
-# def remove_element_from_end_of_array(array) = 
-# ["cat", "dog", "bird", "tiger"]
-# tiger_el = remove_element_from_end_of_array.pop
-# p remove_element_from_end_of_array
-# end
+def add_element_to_start_of_array(array, element)
+array.unshift (element)
+end
+
 
 # def remove_element_from_start_of_array(array) = 
 # ["cat", "dog", "bird", "tiger"]
