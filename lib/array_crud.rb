@@ -35,10 +35,6 @@ def retrieve_last_element_from_array(array)
 array[-1]
 end
 
-# def update_element_from_index(array, index_number, element)=
-#   ["cat", "dog", "bird", "tiger"]
-#   update_element_from_index[1] = "monkey"
-#   =>"monkey"
-#   p update_element_from_index
+update_element_from_index
 
 # end
