@@ -23,11 +23,9 @@ def remove_element_from_start_of_array(array)
 array.shift
 end
 
-# def retrieve_element_from_index(array, index_number) =
-#   ["cat", "dog", "bird", "tiger"]
-#   retrieve_element_from_index[]
-  
-# end
+def add_element_to_start_of_array(array, element)
+array.unshift (element)
+end
 
 # def retrieve_first_element_from_array(array)=
 #     ["cat", "dog", "bird", "tiger"]
