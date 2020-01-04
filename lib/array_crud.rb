@@ -19,11 +19,9 @@ array.pop
 end
 
 
-# def remove_element_from_start_of_array(array) = 
-# ["cat", "dog", "bird", "tiger"]
-# cat_el = remove_element_from_start_of_array.shift
-# p remove_element_from_start_of_array
-# end
+def remove_element_from_end_of_array(array)
+array.pop
+end
 
 # def retrieve_element_from_index(array, index_number) =
 #   ["cat", "dog", "bird", "tiger"]
