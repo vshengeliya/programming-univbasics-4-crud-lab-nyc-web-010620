@@ -6,11 +6,11 @@ def create_an_array
   ["cat", "dog", "bird", "tiger"]
 end
 
-# def add_element_to_end_of_array(array, element)=
-# ["cat", "dog", "bird", "tiger"]
-# add_element_to_end_of_array.push("lion")
-# p add_element_to_end_of_array
-# end
+def add_element_to_end_of_array(array, element)=
+["cat", "dog", "bird", "tiger"]
+add_element_to_end_of_array.push("lion")
+p add_element_to_end_of_array
+end
 
 # def add_element_to_start_of_array(array, element)=
 #   ["cat", "dog", "bird", "tiger"]
