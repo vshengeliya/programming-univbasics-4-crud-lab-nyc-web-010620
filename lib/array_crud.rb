@@ -27,9 +27,9 @@ def retrieve_element_from_index(array, index)
 array[index]
 end
 
-# def retrieve_first_element_from_array(array)=
-#     ["cat", "dog", "bird", "tiger"]
-#   retrieve_first_element_from_array[0]
+def retrieve_element_from_index(array, index)
+array[index]
+end
   
 # end
 
